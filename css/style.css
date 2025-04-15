@@ -1,0 +1,39 @@
+.container {
+    /* Ancho */
+    width: 1600px;
+    /* Centrado horizontal con márgenes automáticos */
+    margin: 0 auto;
+    /* Espacio interno de 20px */
+    padding: 20px;
+}
+
+.navbar {
+    /* Fondo gris */
+    background-color: gray;
+    /* Color tipografía */
+    color: black;
+    /* Espacio interno 10px */
+    padding: 10px;
+}
+
+.navbar ul {
+    /* Quitar los puntos de la lista */
+    list-style-type: none;
+    /* Eliminar márgen externo */
+    margin: 0;
+    /* Eliminar espacio interno */
+    padding: 0;
+    /* Activar flexbox: contenido flexible - alinear la fila */
+    display: flex;
+}
+
+.navbar a {
+    /* Tipografía blanco */
+    color: white;
+    /* Espacio interno 14px arriba, 20px lados */
+    padding: 14px 20px;
+    /* Quitar subrayado enlace */
+    text-decoration: none;
+    /* Centrar texto enlace */
+    text-align: center;
+}
